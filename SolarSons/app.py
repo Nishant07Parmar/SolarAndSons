@@ -28,7 +28,7 @@ logo_path = Path(__file__).parent / "assets" / "logo.jpeg"
 st.set_page_config(
     page_title="Solar & Sons",
     page_icon="assets/logo.jpeg",
-    layout="wide"
+    layout="wide")
 st.logo(str(logo_path), size="large")
 st.title("Solar & Sons")
 
