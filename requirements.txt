@@ -2,4 +2,6 @@ streamlit
 streamlit-antd-components
 pandas
 numpy
+streamlit-float
+streamlit-lottie
 plotly
