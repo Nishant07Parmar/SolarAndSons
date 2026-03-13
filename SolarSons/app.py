@@ -88,7 +88,7 @@ st.markdown("""<div class="top-hero-banner">
             <h1 class="top-hero-title">Solar & Sons</h1>
             <p class="top-hero-subtitle">Gujarat Solar Radiation Analysis & Budget Forecast</p>
             </div>""",unsafe_allow_html=True)
-st.logo("C:\\Users\\nisha\\OneDrive\\Pictures\\logo.jpeg", size="large")
+st.logo("assets/logo.jpeg", size="large")
 
 open_button_bg_rule = (
     f"background-image: url('{sunny_button_image}') !important;"
