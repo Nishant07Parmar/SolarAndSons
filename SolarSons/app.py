@@ -92,7 +92,7 @@ st.markdown("""<div class="top-hero-banner">
             <p class="top-hero-subtitle">Gujarat Solar Radiation Analysis & Budget Forecast</p>
             </div>""",unsafe_allow_html=True)
 logo = Image.open("assets/logo.jpeg")
-st.logo(logo, size="large")"large")
+st.logo(logo, size="large")
 
 open_button_bg_rule = (
     f"background-image: url('{sunny_button_image}') !important;"
