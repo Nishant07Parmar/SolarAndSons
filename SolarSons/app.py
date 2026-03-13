@@ -1,4 +1,7 @@
 ﻿import streamlit as st
+from PIL import Image
+logo = Image.open("assets/logo.jpeg")
+st.logo(logo, size="large")
 import base64
 from pathlib import Path
 from HomePage import homepage
@@ -88,7 +91,8 @@ st.markdown("""<div class="top-hero-banner">
             <h1 class="top-hero-title">Solar & Sons</h1>
             <p class="top-hero-subtitle">Gujarat Solar Radiation Analysis & Budget Forecast</p>
             </div>""",unsafe_allow_html=True)
-st.logo("assets/logo.jpeg", size="large")
+logo = Image.open("assets/logo.jpeg")
+st.logo(logo, size="large")"large")
 
 open_button_bg_rule = (
     f"background-image: url('{sunny_button_image}') !important;"
