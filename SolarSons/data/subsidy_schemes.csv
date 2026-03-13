@@ -1,0 +1,6 @@
+scheme_name,usage_type,state_scope,is_active,subsidy_model,eligible_kw_cap,subsidy_percent,slab1_upto_kw,slab1_rate_general,slab1_rate_special,slab2_upto_kw,slab2_rate_general,slab2_rate_special,max_subsidy_amount,note
+PM Surya Ghar,Residential,ALL,1,slab_per_kw,3,0,2,30000,33000,3,18000,19800,78000,"PM Surya Ghar subsidy is computed using MNRE residential slab rates (up to 3 kW)."
+Surya Gujarat (GEDA),Residential,GUJARAT,1,percent_of_gross,10,20,0,0,0,0,0,0,200000,"Surya Gujarat (GEDA) is modeled as a percent support on eligible system cost."
+PM KUSUM (B & C),Agriculture,ALL,1,percent_of_gross,7.5,30,0,0,0,0,0,0,1000000,"PM KUSUM (B & C) is modeled as agriculture-focused capital support on eligible capacity."
+PM KUSUM (A),Agriculture|Solar Farm,ALL,1,percent_of_gross,500,30,0,0,0,0,0,0,5000000,"PM KUSUM (A) is modeled as decentralized plant support on eligible project cost."
+Green Credit Programme,Commercial / Industrial|Agriculture|Solar Farm,ALL,1,percent_of_gross,1000,10,0,0,0,0,0,0,750000,"Green Credit Programme is modeled as a monetizable credit-equivalent benefit on project cost."
