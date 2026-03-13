@@ -1,7 +1,5 @@
 ﻿import streamlit as st
 from PIL import Image
-logo = Image.open("assets/logo.jpeg")
-st.logo(logo, size="large")
 import base64
 from pathlib import Path
 from HomePage import homepage
