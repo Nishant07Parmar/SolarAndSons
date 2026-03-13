@@ -29,7 +29,7 @@ st.set_page_config(
     page_title="Solar & Sons",
     page_icon="assets/logo.jpeg",
     layout="wide"
-)st.logo(str(logo_path), size="large")
+st.logo(str(logo_path), size="large")
 st.title("Solar & Sons")
 
 st.markdown("""
