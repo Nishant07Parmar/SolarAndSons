@@ -24,7 +24,13 @@ if float_init:
     except Exception:
         pass
 
-st.set_page_config(page_title="Solar & Sons", layout="wide")
+st.set_page_config(
+    page_title="Solar & Sons",
+    page_icon="assets/logo.jpeg",
+    layout="wide"
+)
+st.logo("assets/logo.jpeg")
+st.title("Solar & Sons")
 
 st.markdown("""
 <style>
@@ -89,8 +95,6 @@ st.markdown("""<div class="top-hero-banner">
             <h1 class="top-hero-title">Solar & Sons</h1>
             <p class="top-hero-subtitle">Gujarat Solar Radiation Analysis & Budget Forecast</p>
             </div>""",unsafe_allow_html=True)
-logo_path = Path(__file__).parent / "assets" / "logo.jpeg"
-st.image(str(logo_path), width=200)
 
 open_button_bg_rule = (
     f"background-image: url('{sunny_button_image}') !important;"
